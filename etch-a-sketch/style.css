@@ -1,0 +1,82 @@
+body {
+    margin: none;
+    padding: none;
+    display: flex;
+    justify-content: center;
+    cursor: not-allowed;
+    background-color: black;
+}
+.menu {
+    display: flex;
+    font-size: x-large;
+    margin-top: 20px;
+    font-family: monospace;
+    color:white;
+    display: block;
+    padding: 0px;
+    margin-right: 10px;
+    padding-left: 2px;
+    height: 400px;
+    width: 150px;
+    cursor: not-allowed;
+    background-color: black;    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.c ,
+.s {
+    padding: 4px;
+    border: 1px white solid;
+}
+button{
+    margin-top: 6px;
+    cursor: pointer;
+}
+#sizeSelector {
+    display: flex;
+    width: 50px;
+}
+#color-pick {
+    height: 30px;
+    padding: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#container { 
+    cursor: cell;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    padding:0px;
+    padding-bottom: 0px;
+    border: 2px solid white;
+    background-color: rgb(255, 51, 0);
+}
+.oDiv {
+    margin: 0;
+    padding: 0px;
+    background-color: white;
+    border: 0px solid rgb(173, 172, 172);
+}
+#scale {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: monospace;
+}
+input {
+    cursor: pointer;
+}
+a:link {
+    text-decoration: none;
+    color: lightcoral;
+}
+a:visited  {
+    text-decoration: none;
+    color: lightgreen;
+}
+a:hover {
+    color: orange;
+}
